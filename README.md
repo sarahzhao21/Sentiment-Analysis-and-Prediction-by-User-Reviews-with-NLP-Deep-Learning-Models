@@ -7,7 +7,7 @@ For this project, we would like to explore the relationship between yelp user re
 The datasets are retrieved from Yelp Dataset (https://www.yelp.com/dataset). It provides detailed information of businesses, users, reviews, etc. In our study, we will focus on the review and business datasets. We classified the reviews with the stars 4 or 5 as “good” and the reviews with 1 to 3 stars as “not-good.” In addition, since deep learning models require a substantial amount of computational power but the mode data could result in better outcomes, we need to find a subset of data with appropriate amounts of records. We finally chose data for the state of Pennsylvania for our project, which ranks the 6th for the count of reviews across the provided states.
 
 ### Exploration Data Analysis
-
+![count of rate of PA](image/count of rate of PA.png).
 
 ### Machine Learning models
 Three machine learning models were trained for this project. A baseline model with Naïve Bayes Classifier and two deep learning models. Our first deep learning model is based on a regular deep learning algorithm for text data classification, with two dense layers of the algorithm ‘relu’ and the last layer of the algorithm “sigmoid.” The second model is based on the advanced deep learning algorithms specific for text data analysis, which includes a Conv1D layer, a LSTM layer and three dropout layers in addition to the three regular layers.  We compared the accuracy and mean absolute error (MAE) of three models. 
